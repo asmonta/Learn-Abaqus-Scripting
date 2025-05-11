@@ -53,7 +53,7 @@ This is the most advanced script of the set, performing a **parametric study** v
 - The cube model is built and analyzed multiple times with varying mesh densities.
 - For each mesh size, the simulation is run and postprocessed.
 - The maximum von Mises stress is logged to a `.txt` file alongside its corresponding mesh size.
-- Outputs are printed and appended line-by-line in CSV format.
+- Outputs are printed and appended line-by-line in CSV format, `stress_study.txt`.
 
 > This script demonstrates how to automate design studies, such as mesh convergence checks or parameter sweeps, using structured scripting and file logging. This is generalizable to applying different loads or to modifying the geometry being analyzed
 
